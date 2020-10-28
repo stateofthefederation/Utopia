@@ -456,8 +456,28 @@ module.exports = [{
 	range: "1 - 2",
 	factions: ["independent"]
 }, {
-	type: "question",
+	type: "crew",
 	id: "Q015",
+	set: ["75004"],
+	name: "Repurposed Cargo Hold",
+	cost: 2,
+	text: "This card counts as a [crew] Upgrade, [tech] Upgrade, or [weapon] upgrade.\n\nAdd one [tech] or [weapon] Upgrade to this ship’s Upgrade bar.",
+	OnePerShip: true,
+	shipIndependent: true,
+	factions: ["independent"]
+}, {
+	type: "tech",
+	id: "Q019",
+	set: ["75004"],
+	name: "Repurposed Cargo Hold",
+	cost: 2,
+	text: "This card counts as a [crew] Upgrade, [tech] Upgrade, or [weapon] upgrade.\n\nAdd one [tech] or [weapon] Upgrade to this ship’s Upgrade bar.",
+	OnePerShip: true,
+	shipIndependent: true,
+	factions: ["independent"]
+}, {
+	type: "weapon",
+	id: "Q020",
 	set: ["75004"],
 	name: "Repurposed Cargo Hold",
 	cost: 2,
