@@ -11,7 +11,7 @@ module.exports = [{
 	type: "crew",
 	id: "C358",
 	set: ["80001"],
-	name: "CrazyAndorian",
+	name: "Prudent Andorian",
 	cost: 8,
 	text: "This crew works with Utopia and is still learning",
 	OnePerShip: true,
