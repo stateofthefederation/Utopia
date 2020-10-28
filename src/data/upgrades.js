@@ -8,6 +8,16 @@ module.exports = [{
 	alliance: true,
 	factions: ["federation"]
 }, {
+	type: "crew",
+	id: "C358",
+	set: ["80001"],
+	name: "CrazyAndorian",
+	cost: 8,
+	text: "This crew works with Utopia and is still learning",
+	OnePerShip: true,
+	alliance: false,
+	factions: ["independent"]
+}, {
 	type: "tech",
 	id: "T253",
 	set: ["80001"],
@@ -482,7 +492,7 @@ module.exports = [{
 	set: ["75004"],
 	name: "Teero Anaydis",
 	cost: 3,
-	text: "<b>PLANNING PHASE:</b> Target a [crew] Upgrade equipped to an opposing ship.\nPlace 1 [time] Token on the target [crew] Upgrade.\n----------------------------------------\n<b>END PHASE</b> Target a [crew] Upgrade with a [time] Token on it equipped to an Opposing ship.\nAdd 1 [time] Token to the target [crew] Upgrade instead of removing 1 [time] Token.",	
+	text: "<b>PLANNING PHASE:</b> Target a [crew] Upgrade equipped to an opposing ship.\nPlace 1 [time] Token on the target [crew] Upgrade.\n----------------------------------------\n<b>END PHASE</b> Target a [crew] Upgrade with a [time] Token on it equipped to an Opposing ship.\nAdd 1 [time] Token to the target [crew] Upgrade instead of removing 1 [time] Token.",
 	unique: true,
 	range: "1 - 2",
 	factions: ["independent"]
@@ -12018,4 +12028,3 @@ module.exports = [{
 	unique: false,
 	factions: ["romulan"]
 }];
-
